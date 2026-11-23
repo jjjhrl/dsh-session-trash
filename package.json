@@ -1,0 +1,63 @@
+{
+  "name": "dsh-session-trash",
+  "version": "1.0.0",
+  "description": "A DeepSeek Harness plugin that deletes a Session into a local, recoverable trash instead of only archiving it.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "locale/*.json",
+    "icon.svg",
+    "docs"
+  ],
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "session",
+    "trash",
+    "recycle-bin"
+  ],
+  "author": {
+    "name": "jjjhrl",
+    "url": "https://github.com/jjjhrl"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjjhrl/dsh-session-trash.git"
+  },
+  "homepage": "https://github.com/jjjhrl/dsh-session-trash#readme",
+  "bugs": {
+    "url": "https://github.com/jjjhrl/dsh-session-trash/issues"
+  }
+}

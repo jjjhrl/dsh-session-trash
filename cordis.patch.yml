@@ -1,0 +1,6 @@
+# Insert the Session trash plugin: the Host half serves the trash routes and
+# the `session_trash` tool, and the Client half adds the row-menu action and
+# the Settings › Trash page.
+- insert:
+    - id: session-trash
+      name: dsh-session-trash

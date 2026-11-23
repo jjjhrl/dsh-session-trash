@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security issue privately
+    url: https://github.com/jjjhrl/dsh-session-trash/security/advisories/new
+    about: Do not open a public issue for bugs that could delete, move, or expose Session data.
+  - name: DeepSeek Harness itself
+    url: https://github.com/deepseek-ai
+    about: Problems with DSH itself (not this plugin) belong to the Harness maintainers.

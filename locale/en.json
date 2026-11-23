@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session trash",
+    "description": "Delete a Session instead of only archiving it: the row menu moves the Session's stored log into a local trash directory, and Settings › Trash restores it or deletes it permanently. Works on stored Sessions only; a Session still loaded in the running Host is refused because its writer would keep appending into the trash."
+  }
+}

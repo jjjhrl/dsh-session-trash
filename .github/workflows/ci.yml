@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Repository checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run checks
+        run: node scripts/check.mjs
+
+      - name: Pack the installable bundle
+        run: |
+          npm pack --dry-run 2>&1 | tee pack.log
+          grep -q "cordis.patch.yml" pack.log
+          grep -q "client.js" pack.log

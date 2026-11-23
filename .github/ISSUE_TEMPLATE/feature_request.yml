@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest a capability or a change in behaviour
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do today, and where does the plugin get in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+      description: How should it work from the user's point of view? Mention the exact menu or Settings label it would live under.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: Archiving? Deleting outside DSH? Manual cleanup of `$DSH_HOME/sessions`?
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where should this live?
+      multiple: true
+      options:
+        - Sidebar session menu
+        - Settings › Session trash
+        - session_trash agent tool
+        - Installation / update flow
+        - Documentation
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints this change must respect
+      options:
+        - label: I read "How it works" and "Safety and limitations" in the README.
+          required: true
+        - label: The proposal does not require rewriting stored Session logs in place.
+          required: true
