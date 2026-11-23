@@ -149,7 +149,7 @@ check('client dictionaries', () => {
 })
 
 check('screenshots', () => {
-  for (const image of ['docs/images/session-menu.jpg', 'docs/images/session-trash-settings.jpg']) {
+  for (const image of ['docs/images/session-menu.jpg', 'docs/images/session-trash-settings.jpg', 'docs/images/session-menu.en.png', 'docs/images/session-trash-settings.en.jpg']) {
     const size = statSync(join(ROOT, image)).size
     if (size < 2_000) throw new Error(`${image} looks empty`)
     if (size > 400_000) throw new Error(`${image} is too large for a README image`)

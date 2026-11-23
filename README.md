@@ -11,8 +11,8 @@ A [DeepSeek Harness](#requirements) plugin that **deletes a Session into a local
 
 <table>
   <tr>
-    <td width="42%"><img src="docs/images/session-menu.jpg" alt="Delete session… in the sidebar session menu" /></td>
-    <td width="58%"><img src="docs/images/session-trash-settings.jpg" alt="Settings › Session trash listing a deleted session with Restore and Delete permanently" /></td>
+    <td width="42%"><img src="docs/images/session-menu.en.png" alt="Delete session… in the sidebar session menu" /></td>
+    <td width="58%"><img src="docs/images/session-trash-settings.en.jpg" alt="Settings › Session trash listing a deleted session with Restore and Delete permanently" /></td>
   </tr>
   <tr>
     <td><sub>Session row menu → <b>Delete session…</b>, above the built-in Archive row.</sub></td>
