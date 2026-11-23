@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-trash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A DeepSeek Harness plugin that deletes a Session into a local, recoverable trash instead of only archiving it.",
   "type": "module",
   "exports": {

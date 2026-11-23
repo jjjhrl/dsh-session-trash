@@ -6,6 +6,12 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-23
+
+### Fixed
+
+- The Settings navigation entry and plugin metadata named the page “回收站” / “Trash”; they now use **会话回收站** / **Session trash** consistently with the README.
+
 ## [1.0.0] - 2026-11-23
 
 ### Added
@@ -17,5 +23,6 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Safety refusals: a Session loaded in the running Host, a non-per-session storage layout, or a session directory holding foreign files is rejected with a localized explanation instead of being modified.
 - English and Chinese UI, plugin display metadata in both languages, and an original plugin icon.
 
-[Unreleased]: https://github.com/jjjhrl/dsh-session-trash/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/jjjhrl/dsh-session-trash/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/jjjhrl/dsh-session-trash/releases/tag/v1.0.1
 [1.0.0]: https://github.com/jjjhrl/dsh-session-trash/releases/tag/v1.0.0
