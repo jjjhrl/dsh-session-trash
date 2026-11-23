@@ -1,6 +1,7 @@
 # Session trash for DeepSeek Harness
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/jjjhrl/dsh-session-trash/actions/workflows/ci.yml/badge.svg)](https://github.com/jjjhrl/dsh-session-trash/actions/workflows/ci.yml)
 [![DSH](https://img.shields.io/badge/deepseek--harness-%E2%89%A50.2.2--rc.1-4C6B8A)](#requirements)
 [![Platform](https://img.shields.io/badge/platform-web-8FA7BC)](#requirements)
 

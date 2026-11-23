@@ -1,6 +1,7 @@
 # DeepSeek Harness 会话回收站
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/jjjhrl/dsh-session-trash/actions/workflows/ci.yml/badge.svg)](https://github.com/jjjhrl/dsh-session-trash/actions/workflows/ci.yml)
 [![DSH](https://img.shields.io/badge/deepseek--harness-%E2%89%A50.2.2--rc.1-4C6B8A)](#requirements)
 
 一个给 [DeepSeek Harness](#requirements) 用的插件：**把会话真正删除到本地回收站**，而不只是归档。工作区用久了会堆上几百个会话，这个插件把缺失的「删除」补成两次点击，背后是一个可恢复的回收站。
